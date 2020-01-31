@@ -18,7 +18,8 @@ duplicates = []
 
 bst = BinarySearchTree(names_1[0])
 
-for name_1 in names_1[1:]:
+#populates data structure
+for name_1 in names_1:
     bst.insert(name_1)
 
 for name_2 in names_2:
